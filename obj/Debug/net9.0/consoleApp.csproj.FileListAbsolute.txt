@@ -1,0 +1,14 @@
+/Users/aysenuroz/c-sharp-learning/consoleApp/bin/Debug/net9.0/consoleApp
+/Users/aysenuroz/c-sharp-learning/consoleApp/bin/Debug/net9.0/consoleApp.deps.json
+/Users/aysenuroz/c-sharp-learning/consoleApp/bin/Debug/net9.0/consoleApp.runtimeconfig.json
+/Users/aysenuroz/c-sharp-learning/consoleApp/bin/Debug/net9.0/consoleApp.dll
+/Users/aysenuroz/c-sharp-learning/consoleApp/bin/Debug/net9.0/consoleApp.pdb
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.AssemblyInfoInputs.cache
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.AssemblyInfo.cs
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.csproj.CoreCompileInputs.cache
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.dll
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/refint/consoleApp.dll
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.pdb
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.genruntimeconfig.cache
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/ref/consoleApp.dll
