@@ -12,3 +12,4 @@
 /Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.pdb
 /Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.genruntimeconfig.cache
 /Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/ref/consoleApp.dll
+/Users/aysenuroz/c-sharp-learning/consoleApp/obj/Debug/net9.0/consoleApp.sourcelink.json
