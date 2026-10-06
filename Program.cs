@@ -70,6 +70,60 @@
 // Console.WriteLine(y);
 
 //nullable types
-int? sayi = null; // nullable int
-Console.WriteLine(sayi.HasValue); // false
-Console.WriteLine(sayi.GetValueOrDefault()); // 0
+// int? sayi = null; // nullable int
+// Console.WriteLine(sayi.HasValue); // false
+// Console.WriteLine(sayi.GetValueOrDefault()); // 0
+
+// Console.Write("Adı: ");
+// string? ad = Console.ReadLine();
+// Console.Write("Soyad: ");
+// string? soyad = Console.ReadLine();
+// Console.Write("Yaşı: ");
+// string? yas = Console.ReadLine();
+
+// string mesaj = ad + " " + soyad + " isimli kişi " + yas + " yaşındadır.";
+// string mesaj2 = $"{ad} {soyad} isimli kişi {yas} yaşındadır."; // string interpolation
+
+// Console.WriteLine(mesaj2);
+
+// string mes = "Ayşenur Öz isimli kişi 22 yaşındadır.";
+
+// var sonuc = mes.ToLower(); // küçük harf
+// Console.WriteLine(sonuc);
+
+// string kursAdi = ".NET 7 ile C# Programlama Dili";
+
+// var kac_karakter = kursAdi.Length; // karakter sayısı
+// Console.WriteLine(kac_karakter);
+
+// var kucuk_harf = kursAdi.ToLower();
+// Console.WriteLine(kucuk_harf);
+
+// var nokta = kursAdi.StartsWith('.');
+// Console.WriteLine("String . ile başlıyor mu :" + nokta);
+
+// var c_nerede = kursAdi.IndexOf("C#");
+// Console.WriteLine(c_nerede);
+
+// var c_sharp_var_mi = kursAdi.Contains("C#");
+// Console.WriteLine("C# bulunuyor mu :" + c_sharp_var_mi);
+
+// var degistir = kursAdi.Replace("Dili","Dersleri");
+// Console.WriteLine(degistir);
+
+var simdi = DateTime.Now;
+
+Console.WriteLine(simdi);
+Console.WriteLine(simdi.Year);
+Console.WriteLine(simdi.Month);
+Console.WriteLine(simdi.Day);
+Console.WriteLine(simdi.DayOfWeek);
+Console.WriteLine(simdi.Hour);
+Console.WriteLine(simdi.Minute);
+Console.WriteLine(simdi.Second);
+
+DateTime dt = new DateTime(2018, 6, 10, 14, 35, 45);
+Console.WriteLine(dt);
+
+DateTime dt2 = dt.AddYears(1);
+Console.WriteLine(dt2.Year);
