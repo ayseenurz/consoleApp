@@ -111,19 +111,144 @@
 // var degistir = kursAdi.Replace("Dili","Dersleri");
 // Console.WriteLine(degistir);
 
-var simdi = DateTime.Now;
+// var simdi = DateTime.Now;
 
-Console.WriteLine(simdi);
-Console.WriteLine(simdi.Year);
-Console.WriteLine(simdi.Month);
-Console.WriteLine(simdi.Day);
-Console.WriteLine(simdi.DayOfWeek);
-Console.WriteLine(simdi.Hour);
-Console.WriteLine(simdi.Minute);
-Console.WriteLine(simdi.Second);
+// Console.WriteLine(simdi);
+// Console.WriteLine(simdi.Year);
+// Console.WriteLine(simdi.Month);
+// Console.WriteLine(simdi.Day);
+// Console.WriteLine(simdi.DayOfWeek);
+// Console.WriteLine(simdi.Hour);
+// Console.WriteLine(simdi.Minute);
+// Console.WriteLine(simdi.Second);
 
-DateTime dt = new DateTime(2018, 6, 10, 14, 35, 45);
-Console.WriteLine(dt);
+// DateTime dt = new DateTime(2018, 6, 10, 14, 35, 45);
+// Console.WriteLine(dt);
 
-DateTime dt2 = dt.AddYears(1);
-Console.WriteLine(dt2.Year);
+// DateTime dt2 = dt.AddYears(1);
+// Console.WriteLine(dt2.Year);
+
+// var kursAdi = ".net 7 ile c# programlama dersleri".Split();
+
+// string[] isimler = new string[5];
+// isimler[0] = "Ahmet";
+// isimler[1] = "Ali";
+// isimler[2] = "Canan";
+// isimler[3] = "Çınar";
+// isimler[4] = "Esra";
+
+// string[] isimler = {"Ahmet", "Ali", "Canan", "Çınar", "Esra"};
+
+// int[] numaralar = new int[5];
+
+// numaralar[0] = 100;
+// numaralar[1] = 200;
+// numaralar[2] = 300;
+// numaralar[3] = 400;
+// numaralar[4] = 500;
+
+// Console.WriteLine($"{numaralar[0]} numaralı öğrencinin adı {isimler[0]}");
+// Console.WriteLine($"{numaralar[1]} numaralı öğrencinin adı {isimler[1]}");
+// Console.WriteLine($"{numaralar[2]} numaralı öğrencinin adı {isimler[2]}");
+ 
+//  string[] sehirler = {"istanbul", "sakarya", "kocaeli"};
+//  int[] plakalar = {34, 54, 41};
+
+//  sehirler[0] = "sakarya";
+//  sehirler.SetValue("sakarya",1);
+
+//  Array.Sort(sehirler);
+//  Array.Sort(plakalar);
+
+//  Console.WriteLine(sehirler[0]);
+//  Console.WriteLine(sehirler.GetValue(1));
+//  Console.WriteLine(sehirler.Length);
+//  Console.WriteLine(Array.IndexOf(sehirler,"rize"));
+//  Console.WriteLine(plakalar.GetValue(1));
+
+//  Array.Reverse(plakalar);
+//  Console.WriteLine(plakalar[0]);
+
+// string[] sehirler = ["zonguldak","rize","kocaeli","istanbul","ankara"];
+
+
+// foreach(var i in sehirler[2..]) {
+//     Console.WriteLine(i);
+// }
+
+// string il = "Kocaeli";
+
+// Console.WriteLine(il[..5]);
+
+// string[] ogrenciler = new string[3];
+// int[] notlar = new int[3];
+
+// Console.Write("1. öğrencinin adı:");
+// ogrenciler[0] = Console.ReadLine() ?? "";
+// Console.Write("1. öğrencinin notu:");
+// notlar[0] = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("2. öğrencinin adı:");
+// ogrenciler[1] = Console.ReadLine() ?? "";
+// Console.Write("2. öğrencinin notu:");
+// notlar[1] = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("3. öğrencinin adı:");
+// ogrenciler[2] = Console.ReadLine() ?? "";
+// Console.Write("3. öğrencinin notu:");
+// notlar[2] = Convert.ToInt32(Console.ReadLine());
+
+// foreach(var ogrenci in ogrenciler)
+// {
+//     Console.WriteLine(ogrenci);
+// }
+// foreach(var not in notlar)
+// {
+//     Console.WriteLine(not);
+// }
+
+// Console.WriteLine("öğrenciler dizisinin eleman sayısı: " + ogrenciler.Length);
+
+// var not1 = notlar[0];
+// var not2 = notlar[1];
+// var not3 = notlar[2];
+
+// var ortalama = (not1 + not2 + not3)/3;
+// Console.WriteLine(ortalama);
+
+// string[] ogrenciler = {"Ali","Ahmet","Canan"};
+// int[,] notlar = new int[3,3];
+
+// //ali
+// notlar[0,0] = 50;
+// notlar[0,1] = 60;
+// notlar[0,2] = 70;
+
+// //ahmet
+// notlar[1,0] = 60;
+// notlar[1,1] = 70;
+// notlar[1,2] = 80;
+
+// //canan
+// notlar[2,0] = 50;
+// notlar[2,1] = 90;
+// notlar[2,2] = 20;
+
+// var ortalama_1 = (notlar[0,0] + notlar[0,1] + notlar[0,2]) / 3;
+// var ortalama_2 = (notlar[1,0] + notlar[1,1] + notlar[1,2]) / 3;
+// var ortalama_3 = (notlar[2,0] + notlar[2,1] + notlar[2,2]) / 3;
+
+// Console.WriteLine($"{ogrenciler[0]} isimli öğrencinin not ortalaması: {ortalama_1}");
+// Console.WriteLine($"{ogrenciler[1]} isimli öğrencinin not ortalaması: {ortalama_2}");
+// Console.WriteLine($"{ogrenciler[2]} isimli öğrencinin not ortalaması: {ortalama_3}");
+
+int[] x = {10,20};
+int[] y = x;
+
+Console.WriteLine(x[0]);
+Console.WriteLine(y[0]);
+
+x[0] = 20;
+
+Console.WriteLine(x[0]);
+Console.WriteLine(y[0]);
