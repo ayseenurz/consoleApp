@@ -1,8 +1,8 @@
-﻿// 
+﻿//
 // var kdv_orani = 1.18;
 // var urunA = 5000;
 // var urunB = 6000;
-// var urunC = 7000;   
+// var urunC = 7000;
 // var urunD = 5500;
 
 // Console.WriteLine(urunA *  kdv_orani); //urunA
@@ -40,7 +40,7 @@
 // var sayi3 = 356.45;
 // var toplam = sayi1 + sayi2 + sayi3;
 // Console.WriteLine(toplam);
-// 
+//
 
 // //veri tipi dönüşümü neden önemli
 // Console.Write("1. sayı: ");
@@ -150,7 +150,7 @@
 // Console.WriteLine($"{numaralar[0]} numaralı öğrencinin adı {isimler[0]}");
 // Console.WriteLine($"{numaralar[1]} numaralı öğrencinin adı {isimler[1]}");
 // Console.WriteLine($"{numaralar[2]} numaralı öğrencinin adı {isimler[2]}");
- 
+
 //  string[] sehirler = {"istanbul", "sakarya", "kocaeli"};
 //  int[] plakalar = {34, 54, 41};
 
@@ -242,13 +242,112 @@
 // Console.WriteLine($"{ogrenciler[1]} isimli öğrencinin not ortalaması: {ortalama_2}");
 // Console.WriteLine($"{ogrenciler[2]} isimli öğrencinin not ortalaması: {ortalama_3}");
 
-int[] x = {10,20};
-int[] y = x;
+// int[] x = {10,20};
+// int[] y = x;
 
-Console.WriteLine(x[0]);
-Console.WriteLine(y[0]);
+// Console.WriteLine(x[0]);
+// Console.WriteLine(y[0]);
 
-x[0] = 20;
+// x[0] = 20;
 
-Console.WriteLine(x[0]);
-Console.WriteLine(y[0]);
+// Console.WriteLine(x[0]);
+// Console.WriteLine(y[0]);
+
+// var a = 10;
+// var b = 5;
+// var c = 20;
+
+// var sonuc = (c - a) * b;
+// Console.WriteLine(sonuc);
+
+// int? a = null;
+// int b = 20;
+// var sonuc = (a ?? 0) + b;
+// Console.WriteLine(sonuc);
+
+// var a = 10;
+// var b = 20;
+// a=b--;
+// Console.WriteLine(a);
+// Console.WriteLine(b);
+
+// Console.Write("çift mi tek mi kontrolü yapabilmek için bir sayı giriniz:");
+// int? sayi = int.Parse(Console.ReadLine() ?? "0");
+// if(sayi % 2 == 0)
+// {
+//     Console.WriteLine("sayı çifttir.");
+// }
+// else
+// {
+//     Console.WriteLine("sayı tektir.");
+// }
+
+// math
+// double sonuc;
+
+// sonuc = Math.Pow(2,3);
+// Console.WriteLine(sonuc);
+
+// Console.Write("yaşınızı giriniz:");
+// int yas = Convert.ToInt32(Console.ReadLine() ?? "0");
+
+// var sonuc = (yas >= 18) ? "Oy kullanabilir":"Oy kullanamaz";
+// Console.WriteLine("oy kullanabilme durumu:" + sonuc);
+
+// Console.Write("bir sayı giriniz:");
+// int sayi = Convert.ToInt32(Console.ReadLine() ?? "0");
+
+// var isaret = (sayi>= 0) ? "sayı pozitiftir" : "sayı negatiftir";
+// Console.WriteLine(isaret);
+
+// Console.Write("bir sayı giriniz:");
+// int sayi1 = Convert.ToInt32(Console.ReadLine() ?? "0");
+
+// var tek_cift = (sayi1 % 2 == 0) ? "sayı çifttir" : "sayı tektir";
+// Console.WriteLine(tek_cift);
+
+
+// var yas = 14;
+// bool veli_izni = true;
+
+
+// bool yas_kontrol = (yas >= 18);
+// bool veli_kontrol = (veli_izni);
+// var calisma_durumu = (yas_kontrol || veli_kontrol);
+
+// Console.WriteLine("bir işte çalışabilir mi :" + calisma_durumu);
+
+// Console.WriteLine("notunuzu giriniz: ");
+// var not = Convert.ToInt32(Console.ReadLine() ?? "0");
+
+// var gecti_kaldi = (not > 55 && not <= 100);
+// Console.WriteLine("dersten geçip kalma durumu :" + gecti_kaldi);
+
+// int ortalama = 65;
+// int zayif = 1;
+
+// var sonuc = (ortalama >= 70) ? ((zayif == 0 ) ? "teşekkür alabilir" : "zayıfınızın olmaması gerekiyor"): "notunuz en az 70 olamlıdır.";
+// Console.WriteLine(sonuc);
+
+// var egitim = "lisans";
+// bool sigara_icme = true;
+
+// var sonuc = ((egitim == "lisans" || egitim == "onlisans") && (!sigara_icme));
+// Console.WriteLine("işe girebilme durumu: " + sonuc);
+
+// string email = "info@aysenuroz.com";
+// string username = "aysenuroz";
+// string sifre ="12345";
+
+// var sonuc = ((email ==  "info@aysenuroz.com") || (username == "aysenuroz")) && sifre == "12345" ? "başarılı":"başarısız";
+// Console.WriteLine(sonuc);
+
+string[] takimlar = {"galatasaray","beşiktaş","fenerbahçe","trabzon","sakarya"};
+
+var rnd = new Random();
+
+int sayi = rnd.Next(0,5);
+
+Console.WriteLine(sayi);
+Console.WriteLine(takimlar[sayi]);
+
