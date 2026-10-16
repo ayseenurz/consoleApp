@@ -342,12 +342,236 @@
 // var sonuc = ((email ==  "info@aysenuroz.com") || (username == "aysenuroz")) && sifre == "12345" ? "başarılı":"başarısız";
 // Console.WriteLine(sonuc);
 
-string[] takimlar = {"galatasaray","beşiktaş","fenerbahçe","trabzon","sakarya"};
+// string[] takimlar = {"galatasaray","beşiktaş","fenerbahçe","trabzon","sakarya"};
 
-var rnd = new Random();
+// var rnd = new Random();
 
-int sayi = rnd.Next(0,5);
+// int sayi = rnd.Next(0,5);
 
-Console.WriteLine(sayi);
-Console.WriteLine(takimlar[sayi]);
+// Console.WriteLine(sayi);
+// Console.WriteLine(takimlar[sayi]);
 
+
+
+
+// Console.WriteLine("1 - toplama");
+// Console.WriteLine("2 - çıkarma");
+// Console.WriteLine("3 - bölme");
+// Console.WriteLine("4- çarpma");
+// Console.WriteLine("Yapmak istediğiniz işlemi seçin: ");
+// var islem = Convert.ToInt32(Console.ReadLine() ?? "yanlış ifade girildi.");
+
+// Console.Write("ilk sayıyı girin:");
+// int ilk_sayi = Convert.ToInt32(Console.ReadLine() ?? "0");
+
+// Console.Write("ikinci sayıyı girin:");
+// int ikinci_sayi = Convert.ToInt32(Console.ReadLine() ?? "0");
+
+// int res = 0;
+
+// if (islem == 1)
+// {
+//     res = ilk_sayi + ikinci_sayi;
+//     Console.WriteLine("işlem sonucu :" + res);
+
+// }
+// else if ( islem == 2)
+// {
+//     res = ilk_sayi - ikinci_sayi;    
+//     Console.WriteLine("işlem sonucu :" + res);
+
+// }
+// else if( islem == 3)
+// {
+//     res = ilk_sayi / ikinci_sayi;
+//     Console.WriteLine("işlem sonucu :" + res);
+
+// }
+// else if( islem == 4)
+// {
+//     res = ilk_sayi * ikinci_sayi;
+//     Console.WriteLine("işlem sonucu :" + res);
+// }else
+// {
+//     Console.WriteLine("İşlem için gerekli giriş sağlanmadı. Yeniden deneyiniz.");
+// }
+
+
+
+// Console.Write("ilk yazılı notunuzu giriniz:");
+// var yazili_1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("ikinci yazılı notunuzu giriniz:");
+// var yazili_2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("sözlü notunuzu giriniz:");
+// var sozlu = Convert.ToInt32(Console.ReadLine());
+
+// var sonuc = (yazili_1 + yazili_2 + sozlu) / 3;
+
+// if (sonuc > 0 && sonuc < 25)
+// {
+//     Console.WriteLine("0");
+// }
+// else if(sonuc >= 25 && sonuc < 45)
+// {
+//     Console.WriteLine("1");
+// }
+// else if(sonuc >= 45 && sonuc < 55)
+// {
+//     Console.WriteLine("3");
+// }
+// else if(sonuc >= 55 && sonuc < 70)
+// {
+//     Console.WriteLine("4");
+// }
+// else if(sonuc >= 70 && sonuc < 85)
+// {
+//     Console.WriteLine("5");
+// }
+// else if(sonuc >= 85 && sonuc <= 100)
+// {
+//     Console.WriteLine("6");
+// }
+// else
+// {
+//     Console.WriteLine("hatalı bilgi girişi yapıldı");
+// }
+
+
+// Console.Write("ilk sayıyı giriniz:");
+// var sayi1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("ikinci sayıyı giriniz:");
+// var sayi2 = Convert.ToInt32(Console.ReadLine());
+
+// int en_buyuk = 0;
+// if( sayi1 > sayi2)
+// {
+//     en_buyuk = sayi1;
+//     Console.WriteLine("en büyük sayı : " + en_buyuk);
+// }
+// else if (sayi1 == sayi2)
+// {
+//     Console.WriteLine("sayılar birbirine eşit");
+// }
+// else
+// {
+//     en_buyuk = sayi2;
+//     Console.WriteLine("en büyük sayı : " + en_buyuk);
+// }
+
+// for(var i = 1; i <= 10; i++)
+// {
+//     Console.WriteLine(i);
+// }
+
+// var toplam = 0;
+// for ( var i = 0; i <= 100; i++)
+// {
+//     toplam += i;
+// }
+
+// Console.WriteLine(toplam);
+
+// Console.WriteLine("ilk sayıyı giriniz:");
+// var ilkSayi = Convert.ToInt32(Console.ReadLine() ?? "");
+
+// Console.WriteLine("ikinci sayıyı giriniz:");
+// var ikinciSayi = Convert.ToInt32(Console.ReadLine() ?? "");
+
+// var res = 0;
+// for (var i = ilkSayi; i < ikinciSayi; i++)
+// {
+//     res += i;
+// }
+// Console.WriteLine("iki sayı arasındaki sayıların toplamı: " + res);
+
+// string[] isim_dizisi = ["ali","ahmet","can","yelda","seda"];
+
+// for(var i = 0; i < isim_dizisi.Length; i++)
+// {
+//     Console.WriteLine(isim_dizisi[i]);
+// }
+
+// int[] sayi_dizi = [1, 3, 4, 34, 41, 56, 89];
+
+// int[] ucun_kati = [];
+
+// for(var i = 0; i < sayi_dizi.Length; i++)
+// {
+//     if(sayi_dizi[i] % 3 == 0)
+//     {
+//         Console.WriteLine(sayi_dizi[i]);
+//     }
+// }
+
+// var rnd = new Random();
+// int tutulan = rnd.Next(1, 100);
+// int hak = 3;
+
+// while (hak > 0)
+// {
+//     Console.WriteLine("sayı: ");
+//     int sayi = Convert.ToInt32(Console.ReadLine());
+
+//     hak--;
+
+//     if (sayi == tutulan)
+//     {
+//         Console.WriteLine("Tebrikler bildiniz.");
+//         break;
+//     }
+//     else
+//     {
+//         if (hak == 0)
+//         {
+//             Console.WriteLine("oyun bitti");
+//             break;
+//         }
+//         if (tutulan > sayi)
+//         {
+//             Console.WriteLine("yukarı");
+//         }
+//         else
+//         {
+//             Console.WriteLine("aşağı");
+//         }
+//     }
+// }
+// Console.WriteLine(tutulan);
+
+// Console.WriteLine("adet: ");
+// int adet = Convert.ToInt32(Console.ReadLine());
+
+// string[] urunler = new string[adet];
+
+// int i = 0;
+
+// do
+// {
+//     Console.WriteLine("ürün adı: ");
+//     urunler[i] = Console.ReadLine() ?? "";
+
+//     i++;
+// } while (adet != i);
+
+// Console.WriteLine("ürünler listeleniyor...");
+
+// for (var a = 0; a < urunler.Length; a++)
+// {
+//     Console.WriteLine(urunler[a]);
+// }
+
+string ad = "Ahmet";
+
+foreach(var harf in ad)
+{
+    Console.WriteLine(harf);
+}
+
+int[] sayilar = {10, 20, 30, 40, 50};
+
+foreach(var sayi in sayilar)
+{
+    if(sayi == 20)
+        break;
+        Console.WriteLine(sayi);
+}
