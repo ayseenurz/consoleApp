@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aysenuroz/c-sharp-learning/consoleApp/consoleApp.csproj",
+      "projectUniqueName": "/Users/aysenuroz/consoleApp/consoleApp.csproj",
       "projectName": "consoleApp",
-      "projectPath": "/Users/aysenuroz/c-sharp-learning/consoleApp/consoleApp.csproj",
+      "projectPath": "/Users/aysenuroz/consoleApp/consoleApp.csproj",
       "packagesPath": "/Users/aysenuroz/.nuget/packages/",
-      "outputPath": "/Users/aysenuroz/c-sharp-learning/consoleApp/obj/",
+      "outputPath": "/Users/aysenuroz/consoleApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/aysenuroz/.nuget/NuGet/NuGet.Config"

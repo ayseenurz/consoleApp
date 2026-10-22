@@ -1,0 +1,17 @@
+// var a = 10;
+// var b = 5;
+// var c = 20;
+
+// var sonuc = (c - a) * b;
+// Console.WriteLine(sonuc);
+
+// int? a = null;
+// int b = 20;
+// var sonuc = (a ?? 0) + b;
+// Console.WriteLine(sonuc);
+
+// var a = 10;
+// var b = 20;
+// a=b--;
+// Console.WriteLine(a);
+// Console.WriteLine(b);
